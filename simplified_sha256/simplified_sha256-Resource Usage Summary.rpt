@@ -1,0 +1,81 @@
+Resource Usage Summary report for simplified_sha256
+Sat Jun 10 22:15:00 2023
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Resource Usage Summary
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++-----------------------------------------------+-----------+
+; Resource                                      ; Usage     ;
++-----------------------------------------------+-----------+
+; Estimated ALUTs Used                          ; 1796      ;
+;     -- Combinational ALUTs                    ; 1796      ;
+;     -- Memory ALUTs                           ; 0         ;
+;     -- LUT_REGs                               ; 0         ;
+; Dedicated logic registers                     ; 2426      ;
+;                                               ;           ;
+; Estimated ALUTs Unavailable                   ; 0         ;
+;     -- Due to unpartnered combinational logic ; 0         ;
+;     -- Due to Memory ALUTs                    ; 0         ;
+;                                               ;           ;
+; Total combinational functions                 ; 1796      ;
+; Combinational ALUT usage by number of inputs  ;           ;
+;     -- 7 input functions                      ; 0         ;
+;     -- 6 input functions                      ; 141       ;
+;     -- 5 input functions                      ; 3         ;
+;     -- 4 input functions                      ; 130       ;
+;     -- <=3 input functions                    ; 1522      ;
+;                                               ;           ;
+; Combinational ALUTs by mode                   ;           ;
+;     -- normal mode                            ; 1207      ;
+;     -- extended LUT mode                      ; 0         ;
+;     -- arithmetic mode                        ; 461       ;
+;     -- shared arithmetic mode                 ; 128       ;
+;                                               ;           ;
+; Estimated ALUT/register pairs used            ; 2730      ;
+;                                               ;           ;
+; Total registers                               ; 2426      ;
+;     -- Dedicated logic registers              ; 2426      ;
+;     -- I/O registers                          ; 0         ;
+;     -- LUT_REGs                               ; 0         ;
+;                                               ;           ;
+;                                               ;           ;
+; I/O pins                                      ; 118       ;
+;                                               ;           ;
+; DSP block 18-bit elements                     ; 0         ;
+;                                               ;           ;
+; Maximum fan-out node                          ; clk~input ;
+; Maximum fan-out                               ; 2427      ;
+; Total fan-out                                 ; 15522     ;
+; Average fan-out                               ; 3.48      ;
++-----------------------------------------------+-----------+
+
+
